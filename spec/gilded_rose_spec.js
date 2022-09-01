@@ -4,7 +4,7 @@
  * Results: 3 specs 0 failures at Aug 31 2022.
  */
 describe("Tests result", function() {
-  it("must return the right result", () => {
+  it("must return the right result - Aged Brie: 1, 1", () => {
     // The original items passed to the method
     const items = [
       new Item("Aged Brie", 2, 0),
@@ -19,7 +19,7 @@ describe("Tests result", function() {
     expect(test).toEqual(expectedResult);
   });
 
-  it("must return the right result", () => {
+  it("must return the right result: Sulfuras, Hand of Ragnaros - 0,80", () => {
     // The original items passed to the method
     const items = [
       new Item("Sulfuras, Hand of Ragnaros", 0, 80),
@@ -34,7 +34,7 @@ describe("Tests result", function() {
     expect(test).toEqual(expectedResult);
   });
 
-  it("must return the right result", () => {
+  it("must return the right result: Backstage passes - 14, 21", () => {
     // The original items passed to the method
     const items = [
       new Item("Backstage passes to a TAFKAL80ETC concert", 15, 20),
